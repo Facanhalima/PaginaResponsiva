@@ -1,0 +1,194 @@
+*{
+
+    margin: 0;
+
+}
+
+.borda{
+
+    border: 1px solid blue;
+    border-radius: 5px;
+
+}
+
+header img{
+
+    width: 80px;
+    height: 80px;
+
+}
+
+header button{
+
+    margin-left: 180px;
+
+}
+
+header{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+li{
+
+    list-style: none;
+    border-style: solid;
+
+}
+
+main section{
+
+    display: block;
+
+}
+
+
+main section h1{
+
+    text-align: center;
+
+}
+
+@media screen and (max-width: 480px){
+
+    .boxes{
+
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        max-width: 97%;
+        left: 1.5%;
+        box-sizing: border-box;
+        height: auto;
+        align-self: center;
+    
+    }
+    
+    .box{
+        
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 300px;
+        padding: 10px 10px;
+        margin: 0;
+    
+    }
+    
+    .boxMaior{
+    
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 300px;
+        padding: 10px 10px;
+        margin: 0;
+    
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    header button, li {
+
+        display: none;
+
+    };
+
+    main section :first-child{
+
+        display: none
+
+    }
+
+    .boxes{
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        max-width: 97%;
+        left: 1.5%;
+        box-sizing: border-box;
+        height: auto;
+        align-self: center;
+    
+    }
+    
+    .box{
+    
+        display: inline-block;
+        position: relative;
+        width: 30%;
+        height: 300px;
+        padding: 10px 10px;
+        margin: 0;
+    
+    }
+
+    .boxMaior{
+
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 300px;
+        padding: 10px 10px;
+        margin: 0;
+
+    }
+
+}
+
+@media screen and (min-width: 769px){
+    
+    header button, li {
+
+        display: none;
+
+    };
+
+    main section :first-child{
+
+        display: none;
+
+    }
+
+    .boxes{
+
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        max-width: 97%;
+        left: 1.5%;
+        box-sizing: border-box;
+        height: auto;
+        align-self: center;
+        margin-top: 20px;
+    
+    }
+    
+    .box{
+    
+        position: relative;
+        width: 30%;
+        height: 300px;
+        padding: 10px 10px;
+        margin: 0;
+    
+    }
+
+    .boxMaior{
+    
+        position: relative;
+        width: 30%;
+        height: 300px;
+        padding: 10px 10px;
+        margin: 0;
+    
+    }
+
+}
