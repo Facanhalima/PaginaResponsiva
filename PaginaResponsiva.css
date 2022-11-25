@@ -50,6 +50,7 @@ li{
 #Menu{
 
     padding-top: 20px;
+    margin-bottom: 10px;
 
 }
 
@@ -190,7 +191,7 @@ main section h1{
     .boxes{
 
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction: row;
         flex-wrap: wrap;
         position: relative;
@@ -217,10 +218,11 @@ main section h1{
 
         display: inline-block;
         position: relative;
-        width: 100%;
+        width: 74%;
         height: 300px;
         padding: 10px 10px;
         margin: 0;
+        margin-top: 15px;
 
     }
 
