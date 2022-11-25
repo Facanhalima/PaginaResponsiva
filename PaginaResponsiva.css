@@ -177,6 +177,61 @@ main section h1{
 
 }
 
+
+@media screen and (orientation: landscape){
+    
+    header button, li {
+
+        display: none;
+
+    };
+
+    main section :first-child{
+
+        display: none
+
+    }
+
+    .boxes{
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        max-width: 97%;
+        left: 1.5%;
+        box-sizing: border-box;
+        height: auto;
+        align-self: center;
+    
+    }
+    
+    .box{
+    
+        display: inline-block;
+        position: relative;
+        width: 30%;
+        height: 300px;
+        padding: 10px 10px;
+        margin: 0;
+    
+    }
+
+    .boxMaior{
+
+        display: inline-block;
+        position: relative;
+        width: 74%;
+        height: 300px;
+        padding: 10px 10px;
+        margin: 0;
+        margin-top: 15px;
+
+    }
+
+}
+
 @media screen and (min-width: 769px){
     
     header button, li {
