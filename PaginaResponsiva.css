@@ -28,6 +28,15 @@ header{
 
     display: flex;
     flex-direction: row;
+    width: 100%;
+
+}
+
+header h1{
+
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
 
 }
 
@@ -35,6 +44,12 @@ li{
 
     list-style: none;
     border-style: solid;
+
+}
+
+#Menu{
+
+    padding-top: 20px;
 
 }
 
@@ -52,7 +67,19 @@ main section h1{
 
 }
 
+.box, .boxMaior, header{
+
+    background: gray;
+
+}
+
 @media screen and (max-width: 480px){
+
+    header button, li {
+
+        display: none;
+
+    };
 
     .boxes{
 
